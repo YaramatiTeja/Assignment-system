@@ -3,18 +3,18 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-route
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
-import StudentDashboard from "./pages/StudentDashboard";
-import TeacherDashboard from "./pages/TeacherDashboard";
-import UploadAssignment from "./pages/UploadAssignment";
-import SubmitAssignment from "./pages/SubmitAssignment";
+import Register from "./Pages/Register";
+import Login from "./Pages/Login";
+import StudentDashboard from "./Pages/StudentDashboard";
+import TeacherDashboard from "./Pages/TeacherDashboard";
+import UploadAssignment from "./Pages/UploadAssignment";
+import SubmitAssignment from "./Pages/SubmitAssignment";
 import Feedback from "./Pages/Feedback";
-import GradeAssignments from "./pages/GradeAssignments";
+import GradeAssignments from "./Pages/GradeAssignments";
 import TeacherFeedback from "./Pages/TeacherFeedback";
-import Deadlines from "./pages/Deadlines";
+import Deadlines from "./Pages/Deadlines";
 import About from "./Pages/About";
-import Contact from "./pages/Contact";
+import Contact from "./Pages/Contact";
 import { useTheme } from "./context/ThemeContext";
 
 // ✅ Separate component for routing logic
